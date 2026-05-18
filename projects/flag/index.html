@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Country Quiz</title>
+</head>
+<body>
+    <nav id="myNav">
+        <ul id="navUl">
+          <li><a class="navLink" href="https://davejonesuk.dev/">Portfolio</a></li>
+          <li><a class="navLink" href="https://github.com/imBoonie/Flag-Quiz-Game/tree/main">Code</a></li>
+        </ul>
+    </nav>
+    <h1>Flag Quiz</h1>
+    <h2>How well do you know your flags?</h2>
+    <div id="flagbox">
+        <div id="settingLengthBox">
+            <h4>Choose a Quiz length</h4>
+            <div class="settingChoices">
+                <input type="radio" class="settingChoice" name="flag" id="setting1">
+                <label class="settingLabels" for="setting1" id="settingLabel1">10</label>
+                <input type="radio" class="settingChoice" name="flag" id="setting2">
+                <label class="settingLabels" for="setting2" id="settingLabel2">20</label>   
+                <input type="radio" class="settingChoice" name="flag" id="setting3">
+                <label class="settingLabels" for="setting3" id="settingLabel3">40</label>
+            </div>
+            <button id="startButton">Start</button>
+        </div>
+        <h3 id="score">Current score</h3>
+        <img id="flag" src="svg/ad.svg" alt="country flag">    
+    </div>
+    <div id="multipleChoiceBox">
+        <div class="allChoices">
+        <input type="radio" class="choice" name="flag" id="choice1"> 
+        <label class="answerLabels" id="label1"for="choice1">Choice1</label>   
+    </div>
+        <div class="allChoices">
+        <input type="radio" class="choice" name="flag" id="choice2">
+        <label class="answerLabels" id="label2"for="choice2">Choice2</label>
+    </div>
+        <div class="allChoices">
+        <input type="radio" class="choice" name="flag" id="choice3">
+        <label class="answerLabels" id="label3"for="choice3">Choice3</label> 
+    </div>
+        <div class="allChoices">
+        <input type="radio" class="choice" name="flag" id="choice4"> 
+        <label class="answerLabels" id="label4"for="choice4">Choice4</label>
+    </div>
+    </div> 
+    <script src="app.js"></script>
+</body>
+</html>
