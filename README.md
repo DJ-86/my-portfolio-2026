@@ -15,7 +15,11 @@ A clean, dark-themed portfolio built with vanilla HTML, CSS, and JavaScript — 
 ## Structure
 
 ```
-portfolio/
+my-portfolio-2026/
+  /cv
+  /projects
+    /flag
+    /house
 ├── index.html      # Markup and content
 ├── style.css       # All styles and responsive layout
 ├── main.js         # Scroll behaviour and nav highlighting
